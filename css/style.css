@@ -1,0 +1,431 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{width: 100%;
+    background-color: white;
+    padding: 50px 40px;
+    align-items: center;
+ 
+}
+
+.header_nav{width: 80%;
+    margin: auto;
+}
+nav.navbar.navbar-expand-md {
+    margin: 20px 0px;
+}
+/* ==============bannar section start ================ */
+
+.bannar{
+
+background-image: url(../image/bannar.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 90vh;
+position: relative;
+}
+
+.bannar_content{
+position: av;
+width: 30%;
+position: absolute;
+left: 50%;
+top: 50%;
+text-align: center;
+transform: translate(-50%, -50%);
+}
+.bannar_content h1{  
+color: #FFFFFF;   
+font-size: 50px;  
+text-align: center;
+}
+.bannar_content span{  
+width: 100%;  
+display: block;   
+height: 2px;   
+background: #15a4fa;    
+margin-top: 15px;
+}
+.bannar_content p{    
+color: #ffffff;   
+font-size: 13px;   
+text-align: center;    
+margin-top: 15px;   
+align-items: center;
+}
+
+
+
+.bannar_content button{   
+background: transparent;   
+border: none;   
+color: #ffffff;   
+text-transform: capitalize;   
+border: 1px solid #15a4fa;   
+padding: 10px 15px;    
+text-align: center;    
+margin-top: 20px;
+}
+
+
+.svg_icon {
+    color: #ffffff;
+    position: absolute;
+    font-size: 70px;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, 0px);
+    animation: updown 2s linear infinite;
+   
+    animation-direction: alternate;
+}
+
+
+@keyframes updown{
+    0%{
+        color: red;
+        bottom: 120px;
+
+    }
+    100%{
+        color: blueviolet;
+        bottom: 150px;
+
+    }
+}
+/* ==============bannar section end ================ */
+
+/* =================pure design start======================== */
+
+.pure_design{    
+background: #F6F9F9;   
+padding: 50px 50px;   
+align-items: center;
+}
+.pure_desing_conten{
+width: 80%;
+margin: auto;
+}
+.pure_desing_conten h1{   
+color: #2d3950;    
+text-align: center;    
+margin: 20px 0px;   
+font-size: 30px;
+}
+
+.pure_desing_conten p{   
+color: #999999;   
+text-align: center;   
+margin-top: 25px;
+}
+
+/* =================pure design start======================== */
+
+
+/* ==========font awesome icon section part start============= */
+
+.font_awesome_icon{
+width: 100%;
+background: #ffffff;
+margin: 20px 10px;
+padding: 20px 10px;
+}
+
+.font_awesom{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.icon_content p{
+color: #999999;
+font-size: 12px;
+margin-top: 15px;
+}
+
+.icon_content h4{
+color: #2d3950;
+font-size: 18px;
+margin-top: 15px;
+}
+.icon_content {width: 30%;
+    margin: auto;
+    text-align: center;
+
+}
+.icon{
+    
+width: 100px;   
+margin: auto;  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+51,5fc3ff+99&0.9+0,0.91+100 */
+background: -moz-linear-gradient(left,  rgba(72,186,255,0.9) 0%, rgba(72,186,255,0.91) 50%, rgba(95,195,255,0.91) 51%, rgba(95,195,255,0.91) 99%, rgba(95,195,255,0.91) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,0.9) 0%,rgba(72,186,255,0.91) 50%,rgba(95,195,255,0.91) 51%,rgba(95,195,255,0.91) 99%,rgba(95,195,255,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,0.9) 0%,rgba(72,186,255,0.91) 50%,rgba(95,195,255,0.91) 51%,rgba(95,195,255,0.91) 99%,rgba(95,195,255,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e648baff', endColorstr='#e85fc3ff',GradientType=1 ); /* IE6-9 */
+ 
+line-height: 100px;    
+text-align: center;   
+height: 100px;  
+color: #ffffff;  
+font-size: 36px;  
+margin-bottom: 75px;
+}
+
+
+/* font awesome icon section part end======================== */
+
+
+/* Showcase  section start========================== */
+
+.Showcase{
+
+background: #F6F9F9;
+padding: 80px 33px;
+margin: 100px 0px;
+text-align: center;
+}
+.Showcase h1{  
+color: #2d3950;  
+font-size: 25px;
+}
+.Showcase small{  
+color: #909090;   
+font-size: 12px;
+}
+
+.boostrap_grid{ 
+width: 80%;  
+margin: auto;  
+padding: 10px 0px;
+}
+.img_bg {
+    background-image: url(../image/p4.png);
+    min-height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 106px;
+    width: 360px;
+}
+
+/* Showcase  section end========================== */
+
+
+.gelary{
+
+}
+.gelary_item{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+margin-bottom: 14px;
+
+width: 80%;
+
+margin: auto;
+}
+
+.image{
+
+width: 32%;
+position: relative;
+margin-bottom: 17px;
+}
+
+.image::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #15a4fa;
+    /* width: 100%; */
+    height: 100%;
+    opacity: 0.6;
+    transition: 0.5s all ease-in-out;
+
+
+}
+ .image:hover::before{
+    
+    width: 100%;
+ }
+.image img{
+    
+width: 100%;
+}
+
+
+
+
+
+/* contact us start ====================== */
+
+
+
+.contact_us{
+
+width: 100%;
+background: #2D384C;
+padding: 80px 20px;
+text-align: center;
+}
+.contact_us h4{   
+color: #ffffff;  
+font-size: 35px;
+}
+
+.contact_us p{   
+color: #999999;  
+font-size: 10px;  
+margin-top: 20px;
+}
+
+
+.main_contact_form{
+width: 50%;
+margin: auto;
+}
+
+
+input.form-control.m-3 {
+    background: transparent;
+    border: none;
+    border: 1px solid #EDEDED ;
+}
+input.form-control.m-3:focus{
+    outline: none;
+}
+input.form-control.m-3::placeholder{
+    color: #999999;
+}
+
+textarea.form-control.m-3 {
+    background: transparent;
+   height: 130px;
+    border: none;
+    border: 1px solid #EDEDED ;
+}
+
+textarea.form-control.m-3 :focus{
+    outline: none;
+}
+textarea.form-control.m-3::placeholder{
+    color: #999999;
+}
+.chck_box.form-check {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: at;
+    margin: auto;
+    margin: 10px 20px;
+}
+.chck_box.form-check label{
+    color: #c5d5f1;
+}
+.button {
+    width: 30%;
+}
+button.btn.btn-light {
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    border: 1px solid #15a4fa;
+    padding: 9px 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* contact us end ====================== */
+
+
+/* footer section start ================= */
+
+footer{
+
+background: #F6F9F9;
+width: 100%;
+margin-bottom: 10px;
+align-items: center;
+
+height: 80px;
+}
+.main_footer{   
+width: 80%;  
+margin: auto;   
+justify-content: space-between;   
+display: flex;  
+align-items: center;   
+padding: 15px 5px;
+}
+
+.foter_content{
+
+width: 50%;
+}
+.foter_content p{  
+font-size: 10px;
+}
+
+.icon_list{
+display: flex;
+padding: 4px 10px;
+margin: 10px 5px;
+width: 20%;
+margin: 9px 10px;
+}
+
+.icons{ 
+background: #15a4fa;  
+margin: 0px 5px;   
+padding: 3px 8px;   
+color: white;   
+text-align: center; 
+border-radius: 5px;
+}
+/* footer section start ================= */
+
+
+.display_grid{width: 100%;
+    background-color: #ffffff;
+
+    
+
+}
+.grid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.child{width: 25%;
+
+}
+
+.button{
+    display: flex;
+}
+
+@media screen and (max-width : 600px){
+
+    .form-control m-3{
+    width: 100%;
+}
+}
+
+
+
+
