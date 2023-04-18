@@ -1,0 +1,1 @@
+# stric_program
